@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+body {
+	text-align: center;
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 12px;
+	padding: 30px 0;
+}
+body,a {
+	color: #333;
+}
+#wrapper {
+	width: 500px;
+	margin: 0 auto;
+}
+.field {
+	border: solid 1px #aaa;
+	padding: 5px;
+	width: 250px;
+}
+.tableOverlay {
+	margin-bottom: 16px;
+}
+th {
+	text-align: right;
+	vertical-align: top;
+	padding: 2px 10px 2px 0;
+}
+td {
+	text-align: left;
+	vertical-align: top;
+	padding: 2px;
+}
+.button {
+	padding: 5px 20px;	
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	float: left;
+	border: solid 1px #0e6cb5;
+	background: url(/images/button.png) repeat-x 0 0 #1075c3;
+}
+.button:hover {
+	background-image: none;
+}
+.formOverlay,.overlay {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.formOverlay,.overlay {
+	padding: 10px;
+	border: solid 1px #ddd;
+	margin: 0 auto;
+}
+.formOverlay {
+	background: #eee;
+}
+.overlay {
+	background: url(/images/overlay.png) repeat 0 0;
+	position: relative;
+	border: solid 1px #555;
+}
+.loader {
+	width: 80px;
+	height: 80px;
+	background: url(/images/loader.gif) no-repeat center center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -40px 0 0 -40px;
+}
+#overlay {
+	position: absolute;
+	display: none;
+}
